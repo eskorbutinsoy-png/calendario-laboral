@@ -1,0 +1,17 @@
+{
+  "name": "mis-registros-de-caza-v1-6-7",
+  "private": true,
+  "version": "1.6.7",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/cli": "latest",
+    "@capacitor/android": "latest"
+  }
+}

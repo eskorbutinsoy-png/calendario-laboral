@@ -1,0 +1,8 @@
+{
+  "appId": "com.sergio.cuadernocaza",
+  "appName": "Mis registros de caza",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
