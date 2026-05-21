@@ -24,7 +24,9 @@ jobs:
       - uses: android-actions/setup-android@v3
 
       - run: npm install
-      - run: node node_modules/vite/bin/vite.js build
+     - run: npm install @capacitor/assets --save-dev
+- run: npx capacitor-assets generate
+ - run: node node_modules/vite/bin/vite.js build
       - run: npx cap add android
       - run: npx cap sync android
       - run: cd android && chmod +x gradlew && ./gradlew assembleDebug
